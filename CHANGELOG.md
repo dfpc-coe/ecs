@@ -12,6 +12,10 @@
 
 ### Pending Release
 
+### v1.2.1
+
+- :rocket: Commit ESLint Config
+
 ### v1.2.0
 
 - :rocket: Update all deps & ESLint Config
