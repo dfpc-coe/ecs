@@ -12,6 +12,13 @@ npm install
 
 ## AWS Deployment
 
+### Prerequisites 
+
+Amazon Elastic Container Service uses AWS Identity and Access Management (IAM) service-linked roles. This service linked role needs to be created first - either manually or by having ECS create it during the first deployment. 
+If you have never used ECS in this specific AWS account you need to manually create the service-linked role via `aws iam create-service-linked-role --aws-service-name ecs.amazonaws.com`.
+
+### Installation
+
 From the root directory, install the deploy dependencies
 
 ```sh
