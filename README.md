@@ -2,6 +2,9 @@
 
 <p align=center>Create and Manage ECS with CloudFormation</p>
 
+> [!CAUTION]
+> This repo has been retired and is now incorporated into the dfpc-coe/vpc codebase
+
 ## Installation
 
 Local installation can be performed via the following
